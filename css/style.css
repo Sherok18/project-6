@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/pexels-arina-krasnikova-5418890.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.text{
+    display: none;
+    color: rgb(9, 17, 60);
+    font-size: 20px;
+    padding: 50px 100px 50px 470px ;
+}
+.totalprice{
+    display: none;
+    padding-top: 50px;
+    color: rgb(9, 17, 60);
+    font-size: 20px;
+}
+#btn{
+    display: none;
+    border-radius: 20px;
+    margin: 100px 100px 100px 0;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(9, 17, 60);
+    color: rgb(229, 234, 246);
+    border: 2px solid  rgb(9, 17, 60);
+}
+.card:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
